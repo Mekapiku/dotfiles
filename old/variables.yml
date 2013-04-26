@@ -1,0 +1,79 @@
+username: mot
+dotfiles_dir:
+  - .atom
+  - .rbenv
+dotfiles:
+  - .atom/config.cson
+  - .atom/init.coffee
+  - .atom/keymap.cson
+  - .atom/snippets.cson
+  - .atom/styles.less
+  - .rbenv/default-gems
+  - .gemrc
+  - .gitconfig
+  - .gitignore
+  - .zsh
+  - .zshrc
+  - .vimrc
+  - .agignore
+atom_package:
+  - atom-beautify
+  - autocomplete-paths
+  - file-icons
+  - git-history
+  - git-log
+  - git-plus
+  - highlight-selected
+  - merge-conflicts
+  - minimap
+  - minimap-autohide
+  - minimap-git-diff
+  - minimap-highlight-selected
+  - rspec
+homebrew_cask_package_names:
+  - atom
+  - alfred
+  - dropbox
+  - google-chrome
+  - google-japanese-ime
+  - gyazo
+  - iterm2
+  - licecap
+  - sequel-pro
+  - skitch
+  - slack
+  - vagrant
+  - virtualbox
+  - skype
+  - 1password
+  - android-studio
+  - android-file-transfer
+  - appcleaner
+  - boot2docker
+  - coteditor
+  - evernote
+  - bettertouchtool
+  - radiant-player
+homebrew_packages:
+  - name: caskroom/cask/brew-cask
+  - name: jq
+  - name: vim
+    options: --with-lua
+  - name: lv
+  - name: zsh-completions
+  - name: gradle
+  - name: maven
+  - name: wget
+  - name: gibo
+  - name: go
+    options: --with-cc-command
+  - name: the_silver_searcher
+  - name: tree
+  - name: mysql
+  - name: node
+  - name: peco
+  - name: openssl
+  - name: rbenv
+  - name: ruby-build
+  - name: ricty
+    options: --vim-powerline

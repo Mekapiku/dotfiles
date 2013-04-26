@@ -1,0 +1,40 @@
+[color]
+  ui = auto
+
+[core]
+  editor = vim
+  pager = lv -c
+  excludesfile = ~/.gitignore
+  precomposeunicode = true
+	compression = 0
+
+[alias]
+  graph = log --graph --branches --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+  st = status
+  gr = log --graph --branches --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+  cm = commit
+  co = checkout
+  br = branch
+  remote-br = branch -r
+  delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+  gl = log --pretty='medium-reverse' --graph --name-status
+
+[push]
+  default = simple
+
+[user]
+  email = mot.contact.address.pc@gmail.com
+  name = mot
+
+[pretty]
+  medium-reverse = format:%C(red reverse)%d%Creset%C(white reverse) %h% Creset %C(green reverse) %an %Creset %C(cyan)%ar%Creset%n%C(white bold)%w(80)%s%Creset%n%n%w(80,2,2)%b
+
+[ghq]
+  root = ~/local/src
+  root = ~/works
+[http]
+	postBuffer = 524288000
+[pack]
+	windowMemory = 100m
+	SizeLimit = 100m
+	threads = 1

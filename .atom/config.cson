@@ -1,0 +1,31 @@
+"*":
+  "exception-reporting":
+    userId: "d8ccf920-0764-c982-23e4-fb68808f9c9c"
+  welcome:
+    showOnStartup: false
+  core: {}
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    softWrap: true
+  "atom-beautify":
+    _analyticsUserId: "513b7198-896f-497c-a7f0-6e2069e37125"
+  rspec:
+    command: "bundle exec rspec"
+  "git-plus": {}
+  minimap:
+    plugins:
+      "minimap-autohide": true
+      "git-diff": true
+      "highlight-selected": true
+  autosave:
+    enabled: true
+  "autocomplete-plus": {}
+  "status-bar": {}
+  tabs:
+    enableVcsColoring: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "gist-it":
+    newGistsDefaultToPrivate: true
+    userToken: "62b1735b83c72ec253d2c829c2d3922a41304467"
