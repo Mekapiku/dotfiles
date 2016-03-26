@@ -1,0 +1,12 @@
+autocomplete-paths
+highlight-selected
+minimap
+minimap-autohide
+minimap-git-diff
+minimap-highlight-selected
+merge-conflicts
+atom-beautify
+file-icons
+tree-view-git-status
+git-blame
+autocomplete-emojis
