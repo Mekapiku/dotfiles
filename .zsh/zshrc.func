@@ -35,3 +35,7 @@ function source-if-exists {
 command_not_found_handler(){
   echo "$1: コマンドではない。"
 }
+
+function zsh_reload {
+  source ~/.zshrc
+}
