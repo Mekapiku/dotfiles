@@ -10,3 +10,12 @@ file-icons
 tree-view-git-status
 git-blame
 autocomplete-emojis
+autocomplete-go
+builder-go
+go-config
+go-get
+gofmt
+gometalinter-linter
+gorename
+navigator-godef
+tester-go
