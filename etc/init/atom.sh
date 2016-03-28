@@ -1,8 +1,12 @@
 #!/bin/bash
 
 if [ ! `which atom` ]; then
-  # if atom not found
-  echo "atom not found. Please install atom from https://atom.io/"
+  pushd /tmp
+  curl -o atom-mac.zip -L -O https://atom.io/download/ma
+  unzip atom-mac.zip
+  mv Atom.app/ /Applications/
+
+  echo "please run atom"
   exit 0
 fi
 
