@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for i in `brew list`; do
+  echo "$i`brew info $i | grep 'Built from source with:' | sed -e 's/^.*://' -e 's/,//g'`";
+done
