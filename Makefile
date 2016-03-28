@@ -7,4 +7,4 @@ deploy:
 	@$(foreach val, $(DOTFILES_FILES), ln -sfnv $(abspath $(val)) $(HOME)/$(val);)
 
 init:
-	@$(foreach val, $(wildcard ./etc/init/*.sh), bash $(val);)
+	@$(foreach val, $(wildcard ./etc/init/*.sh), bash -euvx $(val);)
