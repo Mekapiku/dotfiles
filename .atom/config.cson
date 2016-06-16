@@ -1,6 +1,9 @@
 "*":
   "atom-beautify":
     _analyticsUserId: "513b7198-896f-497c-a7f0-6e2069e37125"
+  "autocomplete-elixir":
+    elixirPath: "/usr/local/bin"
+    erlangHome: "/usr/local/bin"
   "autocomplete-plus": {}
   autosave:
     enabled: true
@@ -30,6 +33,7 @@
   "status-bar": {}
   tabs:
     enableVcsColoring: true
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
