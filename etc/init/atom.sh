@@ -10,4 +10,4 @@ if [ ! `which atom` ]; then
   exit 0
 fi
 
-apm install --packages-file `dirname $0`/atom_package_list.txt
+apm stars --installed
