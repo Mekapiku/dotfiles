@@ -1,6 +1,6 @@
 DOTFILES_EXCLUDES := .DS_Store .git .gitmodules .travis.yml .atom .rbenv
 DOTFILES_TARGET_DIRS := .atom .rbenv
-DOTFILES_TARGET   := $(wildcard .??*) bin .atom/config.cson .atom/init.coffee .atom/keymap.cson .atom/snippets.cson .atom/styles.less .rbenv/default-gems
+DOTFILES_TARGET   := $(wildcard .??*) bin bitbar .atom/config.cson .atom/init.coffee .atom/keymap.cson .atom/snippets.cson .atom/styles.less .rbenv/default-gems
 DOTFILES_DIR      := $(PWD)
 DOTFILES_FILES    := $(filter-out $(DOTFILES_EXCLUDES), $(DOTFILES_TARGET))
 
