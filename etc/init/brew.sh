@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ "$(uname)" == 'Darwin' ]; then
+  exit 0
+fi
+
 # install command line tools
 if [[ ! -d /usr/include ]]; then
   PLACEHOLDER=/tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress

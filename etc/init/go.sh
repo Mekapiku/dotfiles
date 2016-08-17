@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ ! `which go` ]; then
+  echo "not install golang"
+  exit 0
+fi
+
 go get -u -v github.com/alecthomas/gometalinter
 go get -u -v golang.org/x/tools/cmd/gorename
 go get -u -v github.com/nsf/gocode
