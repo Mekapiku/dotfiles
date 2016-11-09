@@ -161,3 +161,7 @@ if which plenv > /dev/null; then eval "$(plenv init -)"; fi
 command_not_found_handler(){
   echo "$1: コマンドではない。"
 }
+
+source ~/.zsh/zsh-notify/notify.plugin.zsh
+
+export PATH="$PATH:$HOME/.yarn/bin"

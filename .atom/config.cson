@@ -7,7 +7,8 @@
   "autocomplete-plus": {}
   autosave:
     enabled: true
-  core: {}
+  core:
+    telemetryConsent: "no"
   editor:
     invisibles: {}
     showIndentGuide: true
