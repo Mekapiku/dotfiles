@@ -21,6 +21,9 @@
     newGistsDefaultToPrivate: true
     userToken: "62b1735b83c72ec253d2c829c2d3922a41304467"
   "git-plus": {}
+  latex:
+    engine: "platex"
+    texPath: "/Library/TeX/texbin/"
   minimap:
     plugins:
       "git-diff": true

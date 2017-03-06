@@ -165,3 +165,6 @@ command_not_found_handler(){
 source ~/.zsh/zsh-notify/notify.plugin.zsh
 
 export PATH="$PATH:$HOME/.yarn/bin"
+
+# added by travis gem
+[ -f /Users/mot/.travis/travis.sh ] && source /Users/mot/.travis/travis.sh
