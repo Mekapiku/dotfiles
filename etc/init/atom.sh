@@ -14,4 +14,4 @@ if [ ! `which atom` ]; then
   exit 0
 fi
 
-apm stars --installed
+# apm stars --installed
