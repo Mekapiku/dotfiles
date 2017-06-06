@@ -23,9 +23,17 @@
     newGistsDefaultToPrivate: true
     userToken: "62b1735b83c72ec253d2c829c2d3922a41304467"
   "git-plus": {}
+  "go-plus":
+    panel:
+      currentHeight: "4.664179104477612vh"
   latex:
     engine: "platex"
     texPath: "/Library/TeX/texbin/"
+  linter: {}
+  "linter-tslint":
+    ignoreTypings: true
+  "linter-ui-default":
+    panelHeight: 69
   minimap:
     plugins:
       "git-diff": true

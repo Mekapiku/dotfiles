@@ -1,9 +1,0 @@
-#!/bin/bash
-
-if [ $# -ne 1 ]; then
-  echo "$0 app_name"
-  exit 1
-fi
-
-ssh app.pgmot.com "sudo dokku apps:create $1"
-git remote add dokku dokku@app.pgmot.com:$1
