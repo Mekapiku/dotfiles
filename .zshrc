@@ -162,7 +162,7 @@ command_not_found_handler(){
   echo "$1: コマンドではない。"
 }
 
-source ~/.zsh/zsh-notify/notify.plugin.zsh
+#source ~/.zsh/zsh-notify/notify.plugin.zsh
 
 export PATH="$PATH:$HOME/.yarn/bin"
 

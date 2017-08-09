@@ -10,10 +10,15 @@
   autosave:
     enabled: true
   core:
+    packagesWithKeymapsDisabled: [
+      "git-blame"
+      "es6-javascript"
+    ]
     telemetryConsent: "no"
   editor:
     invisibles: {}
     showIndentGuide: true
+    showInvisibles: true
     softWrap: true
   "exception-reporting":
     userId: "d8ccf920-0764-c982-23e4-fb68808f9c9c"
@@ -47,7 +52,15 @@
   "status-bar": {}
   tabs:
     enableVcsColoring: true
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
+".js.regexp.replacement.source":
+  editor:
+    softWrapHangingIndent: 2
+".js.regexp.source":
+  editor:
+    softWrapHangingIndent: 2
+".js.source":
+  editor:
+    softWrapHangingIndent: 2
