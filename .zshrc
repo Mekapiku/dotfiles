@@ -168,3 +168,6 @@ export PATH="$PATH:$HOME/.yarn/bin"
 
 # added by travis gem
 [ -f /Users/mot/.travis/travis.sh ] && source /Users/mot/.travis/travis.sh
+
+source $HOME/.asdf/asdf.sh
+source $HOME/.asdf/completions/asdf.bash
