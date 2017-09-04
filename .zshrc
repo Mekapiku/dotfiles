@@ -169,5 +169,5 @@ export PATH="$PATH:$HOME/.yarn/bin"
 # added by travis gem
 [ -f /Users/mot/.travis/travis.sh ] && source /Users/mot/.travis/travis.sh
 
-source $HOME/.asdf/asdf.sh
-source $HOME/.asdf/completions/asdf.bash
+source-if-exists $HOME/.asdf/asdf.sh
+source-if-exists $HOME/.asdf/completions/asdf.bash
