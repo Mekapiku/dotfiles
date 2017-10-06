@@ -48,7 +48,7 @@ unsetopt bg_nice
 
 ## Keybind configuration
 #
-# emacs like keybind (e.x. Ctrl-a goes to head of a line and Ctrl-e goes 
+# emacs like keybind (e.x. Ctrl-a goes to head of a line and Ctrl-e goes
 # to end of it)
 #
 bindkey -e
@@ -150,9 +150,6 @@ source-if-exists "$HOME/.pythonbrew/etc/bashrc"
 source-if-exists "/usr/local/bin/aws_zsh_completer.sh"
 source-if-exists "$HOME/.zsh/completion/gibo-completion.zsh"
 
-PERL_MB_OPT="--install_base \"/Users/mot/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/Users/mot/perl5"; export PERL_MM_OPT;
-
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 export PYENV_ROOT=/usr/local/opt/pyenv
 
@@ -162,12 +159,15 @@ command_not_found_handler(){
   echo "$1: コマンドではない。"
 }
 
-#source ~/.zsh/zsh-notify/notify.plugin.zsh
-
 export PATH="$PATH:$HOME/.yarn/bin"
-
-# added by travis gem
-[ -f /Users/mot/.travis/travis.sh ] && source /Users/mot/.travis/travis.sh
 
 source-if-exists $HOME/.asdf/asdf.sh
 source-if-exists $HOME/.asdf/completions/asdf.bash
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if which pyenv 2>&1 >/dev/null; then alias brew="env PATH=${PATH//$(pyenv root)\/shims:/} brew"; fi

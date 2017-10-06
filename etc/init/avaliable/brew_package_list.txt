@@ -1,8 +1,6 @@
 autoconf
 ffmpeg
 freetype
-gdbm
-ghostscript
 gibo
 go
 gradle
@@ -15,24 +13,18 @@ lame
 libpng
 libtiff
 libtool
-libvo-aacenc
-little-cms2
-lua
 lv
 maven
-mobiledevice
 nkf
 node
 oniguruma
 openssl
-pcre
 peco
 pkg-config
 postgresql
 rbenv
 readline
 ruby-build
-the_silver_searcher
 tree
 vim --with-lua
 wget
