@@ -23,7 +23,7 @@
   default = simple
 
 [user]
-	email = mekapiku+mekapiku@gmail.com
+	email = mekapiku@gmail.com
 	name = Mekapiku
 
 [pretty]
