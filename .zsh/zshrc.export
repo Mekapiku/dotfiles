@@ -11,5 +11,4 @@ export PATH=/usr/local/heroku/bin:$PATH
 export PATH=$HOME/bin:$PATH
 
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
-export HOMEBREW_CASK_OPTS="--appdir=~/Applications --caskroom=/usr/local/Caskroom"
 export PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
